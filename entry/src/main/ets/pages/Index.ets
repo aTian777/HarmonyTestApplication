@@ -1,9 +1,21 @@
-import router from '@ohos.router'
 
+import router from '@ohos.router'
 @Entry
 @Component
 struct Index {
   @State message: string = '123'
+
+  fn = () => {
+    this.message = "456"
+  }
+
+  onPageShow(){
+
+  }
+
+  onPageHide(){
+
+  }
 
   build() {
     Row() {
@@ -37,4 +49,6 @@ struct Index {
     }
     .height('100%')
   }
+
+
 }

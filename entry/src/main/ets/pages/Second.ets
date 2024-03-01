@@ -1,3 +1,4 @@
+import router from '@ohos.router'
 @Entry
 @Component
 struct Second {
@@ -17,6 +18,16 @@ struct Second {
         .type(ButtonType.Capsule)
         .margin({
           top: 20
+        })
+        .onClick(() => {
+          console.info(`Succeeded in clicking the 'Back' button.`)
+          try {
+            // 返回第一页
+            router.back()
+            console.info('Succeeded in returning to the first page.')
+          } catch (err) {
+            console.error(`Failed to return to the first page.Code is ${err.code}, message is ${err.message}`)
+          }
         })
         .backgroundColor('#0D9FFB')
         .width('40%')
