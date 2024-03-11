@@ -111,6 +111,6 @@ struct Launch {
    * 路由跳转
    */
   routeSuccess(): void {
-    router.pushUrl({ url: 'pages/Index' })
+    router.pushUrl({ url: 'pages/Login' })
   }
 }

@@ -2,6 +2,8 @@
   "src": [
     "pages/Launch",
     "pages/Index",
-    "pages/Second"
+    "pages/Second",
+    "pages/Setting",
+    "pages/Login"
   ]
 }

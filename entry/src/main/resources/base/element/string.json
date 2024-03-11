@@ -14,7 +14,43 @@
     },
     {
       "name": "reason",
-      "value": "正常使用"
+      "value": "Normal use"
+    },
+    {
+      "name": "prompt_select_img",
+      "value": "Select an image to upload."
+    },
+    {
+      "name": "upload_error_message",
+      "value": "Upload file failed, please try again!"
+    },
+    {
+      "name": "tab_all",
+      "value": "All"
+    },
+    {
+      "name": "tab_domestic",
+      "value": "Domestic"
+    },
+    {
+      "name": "tab_international",
+      "value": "International"
+    },
+    {
+      "name": "tab_fun",
+      "value": "Fun"
+    },
+    {
+      "name": "tab_military",
+      "value": "Military"
+    },
+    {
+      "name": "tab_sports",
+      "value": "Sports"
+    },
+    {
+      "name": "tab_science",
+      "value": "Science"
     }
   ]
 }
