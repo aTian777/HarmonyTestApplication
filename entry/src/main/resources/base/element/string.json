@@ -51,6 +51,14 @@
     {
       "name": "tab_science",
       "value": "Science"
+    },
+    {
+      "name": "pull_down_refresh_text",
+      "value": "The drop-down refresh"
+    },
+    {
+      "name": "release_refresh_text",
+      "value": "Loosen the refresh"
     }
   ]
 }

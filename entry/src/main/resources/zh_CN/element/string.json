@@ -51,6 +51,14 @@
     {
       "name": "tab_science",
       "value": "科技"
+    },
+    {
+      "name": "pull_down_refresh_text",
+      "value": "下拉刷新"
+    },
+    {
+      "name": "release_refresh_text",
+      "value": "松开刷新"
     }
   ]
 }
